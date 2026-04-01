@@ -1,0 +1,189 @@
+
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    column-gap: 10px;
+}
+
+:root {
+    --dark-yellow: #2F4F4F;
+    --text-white: #f9f9f9;
+    --white-smoke:LightGray;
+    --light-green: #228B22;
+    --dark-text: #000033;
+} 
+
+
+body{
+    background-color: var(--dark-yellow);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.logo-image img{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px var(--dark-text);
+    padding: 10px
+   
+}
+
+.cta{
+    display: flex;
+    list-style-type: none;
+    column-gap: 10px;
+    color: var(--white-smoke);
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 20px;
+    font-weight: 600;
+}
+
+.logo-text {
+    color :  var(--text-white);
+    font-size: 14px;
+}
+
+.logo-text p{
+    font-weight: 5;
+    color: var(--white-smoke)
+}
+
+.menu li a{
+    color: var(--white-smoke);
+    text-decoration: none;
+}
+
+main{margin-top: 60px;}
+
+.cta li a{
+    color: var(--white-smoke);
+    text-decoration: none;
+}
+
+
+
+.cta :nth-child(2) a{
+    background-color: var(--light-green);
+    color: var(--dark-text);
+    padding:8px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 40px;
+    
+}
+
+.hero-text{
+    margin-top: 30px
+}
+
+.hero-text h3{
+    color: var(--light-green);
+    font-weight: 400;
+}
+
+.hero-text h2{
+    color: var(--text-white);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}  
+
+.hero-text p{
+    color: var(--white-smoke);
+    margin-top: 20px;
+}
+
+.hero-cta{
+    display: flex;
+    column-gap: 10px;
+}
+
+.hero-cta a{
+    background-color: transparent;
+    padding: 10px;
+    color: var(--text-white);
+    border-radius: 10px;
+    border: 1px solid var(--text-white);
+    text-decoration: none;
+}
+
+.hero-cta a.filled{
+    background-color: var(--light-green);
+}
+
+.cards{
+    display: flex;
+    column-gap: 10px ;
+    padding: 20px;
+    margin-top: 30px;
+   
+
+}
+
+.card-box-icon{
+    color: var(--light-green);
+    background-color: rgba(100, 250, 128, 0.1);
+    width:45px;
+    height: 45px;
+    padding:8px;
+   
+    border-radius: 10px;
+    display: flex;
+   
+    align-items: center;
+  
+    margin-bottom: 50px;
+    
+    
+    font-size: 2rem;
+  
+    
+}
+
+.card-box{
+    background-color: transparent;
+    background-color: #80808080; /* grey with 50% transparency */
+    padding: 20px;
+    border-radius: 10px;
+    column-gap: 5px;
+}
+
+.card-box p{
+    font-weight: 200;
+    color: white;
+}
+
+.card-box h5{
+    color: white;
+    font-weight: 800;
+}
